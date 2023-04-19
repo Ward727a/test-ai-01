@@ -1,0 +1,38 @@
+{
+  "name": "test-ai-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js & node ./dist/index-browser.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ward727a/test-ai-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ward727a/test-ai-01/issues"
+  },
+  "homepage": "https://github.com/Ward727a/test-ai-01#readme",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.23",
+    "gl": "^6.0.2",
+    "gpu.js": "^2.16.0",
+    "train-stream": "^1.0.4"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.3.1",
+    "typescript": "^5.0.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
